@@ -2,12 +2,12 @@
 
 build a modern portfolio website with responsive design using React, TailwindCSS, and Lucide Icons.
 
-## Tech Stack
+## ⚙️ Tech Stack
 - React – Component-based UI development
 - TailwindCSS – Utility-first CSS for styling
 - Lucide Icons – Clean and beautiful icon pack
 
-## Features
+## ⚡️ Features
 - **Light/Dark Mode Toggle:** Save theme preference in local storage with beautiful transitions
 
 - **Animated Backgrounds:** included stars, meteors, scroll effects, and glowing UI elements
