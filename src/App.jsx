@@ -1,12 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
 
   return (
     <>
-      <h1>LOL</h1>
+      <Toaster />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home/>}/>
