@@ -1,13 +1,24 @@
-# React + Vite
+# Modern Portfolio Website with React & TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+build a modern portfolio website with responsive design using React, TailwindCSS, and Lucide Icons.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React – Component-based UI development
+- TailwindCSS – Utility-first CSS for styling
+- Lucide Icons – Clean and beautiful icon pack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Light/Dark Mode Toggle:** Save theme preference in local storage with beautiful transitions
 
-## Expanding the ESLint configuration
+- **Animated Backgrounds:** included stars, meteors, scroll effects, and glowing UI elements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# portfolio-website" 
+- **Responsive Design:** responsive navigation desktop and mobile menus with glassmorphism
+
+- **Hero & About Section:** smooth intro animations and buttons
+
+- **Skills Section:** grid filterable with progress bars and categories 
+
+- **Projects Showcase Section:** show screenshots, tech stacks, and GitHub/demo links
+
+- **Contact Section:** social media + responsive contact form with toast notifications
+
