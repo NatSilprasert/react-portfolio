@@ -3,7 +3,7 @@
 build a modern portfolio website with responsive design using React, TailwindCSS, and Lucide Icons.
 
 ## ⚙️ Tech Stack
-- React – Component-based UI development
+- ReactJS – Component-based UI development
 - TailwindCSS – Utility-first CSS for styling
 - Lucide Icons – Clean and beautiful icon pack
 
