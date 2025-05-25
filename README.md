@@ -1,4 +1,4 @@
-# Modern Portfolio Website with React & TailwindCSS
+# Modern Portfolio Website with ReactJS & TailwindCSS
 
 build a modern portfolio website with responsive design using React, TailwindCSS, and Lucide Icons.
 
