@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, excepturi",
+        title: "TCOS × LOVEiS Cafe Drink Service",
+        description: "Website for TCOS × LOVEiS cafe, enabling drink orders.",
         image: "/projects/project1.png",
-        tags: ["React", "TailwindCSS", "SupaBase"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["Next.js", "TypeScript", "MongoDB"],
+        demoUrl: "https://stagedrinks.vercel.app/",
+        githubUrl: "https://github.com/NatSilprasert/loveis-drink-server-promptpay",
     },
     {
         id: 2,
-        title: "Analytic Dashboard",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, excepturi",
+        title: "TCOS Merch Website",
+        description: "E-commerce site selling TCOS merchandise, with authentication, cart, admin dashboard.",
         image: "/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React", "TailwindCSS", "MongoDB"],
+        demoUrl: "https://merchtcos.vercel.app/",
+        githubUrl: "https://github.com/NatSilprasert/tcos-merch-project",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, excepturi",
+        title: "GTA VI Landing Page Clone",
+        description: "GTA VI landing clone with parallax, scroll-synced video animations using GSAP.",
         image: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["Next.js", "TailwindCSS", "GSAP"],
+        demoUrl: "https://gtaviclone.vercel.app",
+        githubUrl: "https://github.com/NatSilprasert/gta-vi-landing",
     },
 ]
 
@@ -64,10 +64,10 @@ function ProjectsSection() {
                                 
                                 <div className="flex justify-between items center">
                                     <div className="flex space-x-3">
-                                        <a href={project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                        <a target="_blank" href={project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                             <ExternalLink size={20} />
                                         </a>
-                                        <a href={project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                        <a target="_blank" href={project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                             <Github size={20} />
                                         </a>
                                     </div>

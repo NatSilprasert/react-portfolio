@@ -1,18 +1,17 @@
-import { Github, Instagram, Linkedin, Mail, Phone, Send, Twitter } from "lucide-react"
+import { Facebook, Github, Instagram, Linkedin, Mail, Phone, Send, Twitter } from "lucide-react"
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
 
 function ContactSection() {
-
     const { toast } = useToast();
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isAvailable, setIsAvailable] = useState(false); // เพิ่ม state
 
     const handleSummit = (e) => {
-
         e.preventDefault();
-
         setIsSubmitting(true);
+        setIsAvailable(false); // ปิดปุ่ม
 
         setTimeout(() => {
             toast({
@@ -31,7 +30,7 @@ function ContactSection() {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus qui velit modi eum veritatis neque illum sequi et perferendis nobis?
+                Let’s connect and build something great together — message me anytime.
                 </p> 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg">
@@ -91,25 +90,25 @@ function ContactSection() {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/in/nat-silprasert-893149365/" target="_blank">
                                     <Linkedin/>
                                 </a>
-                                <a href="#" target="_blank"> 
-                                    <Twitter/>
+                                <a href="https://www.facebook.com/nat.silp.98757" target="_blank"> 
+                                    <Facebook/>
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/natsilpnotnatslip/" target="_blank">
                                     <Instagram/>
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://github.com/NatSilprasert" target="_blank">
                                     <Github/>
                                 </a>
                             </div>             
                         </div>
                     </div>
 
-                    <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSummit}>
+                    <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-                        <form className="space-y-6">
+                        <form className="space-y-6" onSubmit={handleSummit}>
                             <div>
                                 <label htmlFor="name" className="block text-left text-sm fony-medium mb-2">Your Name</label>
                                 <input 
@@ -148,13 +147,13 @@ function ContactSection() {
 
                             <button 
                                 type="submit"
-                                disabled={isSubmitting}
+                                disabled={isSubmitting || !isAvailable}
                                 className={cn(
                                     "px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.8)] w-full flex items-center justify-center gap-2",
-
+                                    (!isAvailable || isSubmitting) && "opacity-60 cursor-not-allowed"
                                 )}
                             >
-                                {isSubmitting ? "Sending..." : "Send Message"}
+                                {isAvailable ? isSubmitting ? "Sending..." : "Send Message" : "Not Available"}
                                 <Send size={16}/>
                             </button>
                         </form>

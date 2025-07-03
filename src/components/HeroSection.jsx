@@ -31,8 +31,8 @@ function HeroSection() {
                         <span className="text-primary opacity-0 animate-fade-in-delay-1"> Nat</span>
                         <span className="text-gradient opacity-0 animate-fade-in-delay-2"> Silprasert</span>
                     </h1>
-                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid rem maxime voluptates voluptatem ipsa aut, ratione aspernatur reprehenderit aliquam, sequi officiis nemo fuga facere?
+                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 lg:w-4/5">
+                        A Full Stack Developer who passionate about self-improvement, business, and tech innovation.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
