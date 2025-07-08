@@ -39,7 +39,7 @@ function ProjectsSection() {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, excepturi molestiae. Voluptas sed velit explicabo.
+                    A collection of projects I’ve built, designed, and developed myself.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
