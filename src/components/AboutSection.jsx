@@ -10,9 +10,9 @@ function AboutSection() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">An Engineering Student & <br /> Passionate Developer</h3>
+                        <h3 className="text-2xl font-semibold">A Computer Engineering Student<br />& Passionate Developer</h3>
                         <p className="text-muted-foreground">
-                            I’m an engineering student passionate about website development and UI/UX design. I enjoy building impressive, user-focused interfaces that combine creativity with function.
+                            I’m a computer engineering student passionate about website development and UI/UX design. I enjoy building impressive, user-focused interfaces that combine creativity with function.
                         </p>
                         <p className="text-muted-foreground">
                             I may not be the most naturally talented,, but I’m hardworking, responsible, and always eager to learn and improve through every project I commit to.
