@@ -12,7 +12,7 @@ function AboutSection() {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">A Computer Engineering Student<br />& Passionate Developer</h3>
                         <p className="text-muted-foreground">
-                            I’m a computer engineering student passionate about website development and UI/UX design. I enjoy building impressive, user-focused interfaces that combine creativity with function.
+                            I’m a computer engineering student who passionate about website development and UI/UX design. I enjoy building impressive, user-focused interfaces that combine creativity with function.
                         </p>
                         <p className="text-muted-foreground">
                             I may not be the most naturally talented,, but I’m hardworking, responsible, and always eager to learn and improve through every project I commit to.
