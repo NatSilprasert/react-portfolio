@@ -3,31 +3,42 @@ import { cn } from "../lib/utils";
 
 const skills = [
     // Languages
-    { name: "Python", category: "languages" },
-    { name: "HTML", category: "languages" },
-    { name: "CSS", category: "languages" },
-    { name: "JavaScript", category: "languages" },
     { name: "TypeScript", category: "languages" },
+    { name: "JavaScript", category: "languages" },
+    { name: "Golang", category: "languages" },
+    { name: "Python", category: "languages" },
+    { name: "Java", category: "languages" },
+    { name: "C++", category: "languages" },
+    { name: "HTML, CSS", category: "languages" },
 
     // Frontend
     { name: "React", category: "frontend" },
+    { name: "React Native", category: "frontend" },
     { name: "Next.js", category: "frontend" },
     { name: "TailwindCSS", category: "frontend" },
     { name: "GSAP", category: "frontend" },
+    { name: "ShadCN UI", category: "frontend" },
 
     // Backend
     { name: "Node.js", category: "backend" },
     { name: "Express", category: "backend" },
+    { name: "Gorm", category: "backend" },
+    { name: "PrismaORM", category: "backend" },
+    { name: "JWT Auth", category: "backend" },
+    { name: "RESTful API", category: "backend" },
     
     // Database
-    { name: "MySQL", category: "database" },
     { name: "PostgreSQL", category: "database" },
     { name: "MongoDB", category: "database" },
-    { name: "Prisma", category: "database" },
+    { name: "Supabase", category: "database" },
 
     // Tools
     { name: "Git / GitHub", category: "tools" },
+    { name: "Docker", category: "tools" },
+    { name: "Makefile", category: "tools" },
+    { name: "Postman", category: "tools" },
     { name: "Figma", category: "tools" },
+    { name: "VS Code", category: "tools" },
 ];
 
 const categories = ["languages", "frontend", "backend", "database", "tools"];

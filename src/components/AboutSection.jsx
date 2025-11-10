@@ -15,7 +15,7 @@ function AboutSection() {
                             I’m a computer engineering student who passionate about website development and UI/UX design. I enjoy building impressive, user-focused interfaces that combine creativity with function.
                         </p>
                         <p className="text-muted-foreground">
-                            I may not be the most naturally talented,, but I’m hardworking, responsible, and always eager to learn and improve through every project I commit to.
+                            I may not be the most naturally talented, but I’m hardworking, responsible, and always eager to learn and improve through every project I commit to.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -23,7 +23,7 @@ function AboutSection() {
                                 Get In Touch
                             </a>
                             <a
-  href="/NatSilprasert_CV.pdf"
+  href="/NatSilprasert_CV_2025.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-2 rounded-full bg-none text-primary border border-primary font-medium transition-all duration-300 hover:shadow-[0_0_20px_rgba(139,92,246,0.8)] hover:bg-white transform scale-100 hover:scale-105"
