@@ -25,8 +25,8 @@ const projects = [
         description: "AI platform that integrates an LLM to generate and share images from trending and user-created prompts.",
         image: "/projects/project6.png",
         tags: ["LLM", "JavaScript", "JWT"],
-        demoUrl: "",
-        githubUrl: "https://github.com/NatSilprasert/promptleaw",
+        demoUrl: "https://promptlaew.vercel.app",
+        githubUrl: "https://github.com/NatSilprasert/PromptLaew",
     },
     {
         id: 5,
